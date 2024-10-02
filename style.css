@@ -1,0 +1,36 @@
+body{ 
+    background-color: aliceblue; 
+} 
+.div1{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: rgb(135, 192, 243); 
+} 
+.div2{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: rgb(239, 148, 191); 
+} 
+.div3{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: rgb(137, 33, 163); 
+} 
+section{ 
+    height: 100%; 
+    display: flex; 
+    /* выставить блоки в ряд */ 
+    flex-direction: row;  
+    /* выравнивание по вертикали */ 
+    align-items: center; 
+    /* выравнивание по горизонтали */ 
+    justify-content: flex-end; 
+} 
+body{ 
+    height: 500px; 
+}
+button{
+    color: antiquewhite;
+    background-color: aquamarine;
+    border: none;
+}
